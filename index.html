@@ -1,0 +1,32 @@
+Hmm... "searching for the best electricity chart ever" :-), no pressure.
+
+The approach I would take is to find the story/narrative first and follow that with an appropriate data visualisation. Too often, we focus on pixels first. Remember, charts are not there to look pretty but as a tool for understanding.
+
+I generated some demo data and had a quick go. It's demo data, so there is no real story in it, but I am assuming that one of the key messages we would like to convey is that market-based emissions (if you use a green provider) should be lower than location-based emissions (e.g. the average across a state). These two values should become one at some point when the grid becomes carbon-free. 
+
+
+To answer your question, having three series in one chart is not a good idea. In this case, it makes little sense to mix emissions in tonnes and consumption in kWh. Generally, dual axes are considered a confusing option for most users.
+
+See the example charts in the attached image (there is no way to attach a PDF to the responses). 
+
+A. Line chart. This is a simple view of market vs. location-based. It's simple and not very useful. It just shows the obvious but with no real story.
+
+B. Barbell plot (or connected dot plot). We can improve on this by showing the difference between the two, as we can better see the value of signing up with a green provider. The benefit of saved CO2 tonnes is clear to see. It would also be interesting to have a % difference here and see how that changes over time. 
+
+C. Another view of the above. Easier to see the trend over time.
+
+D. As more data becomes available, we could compare across different years and see developing trends. Demo data clearly does not make too much sense here.
+
+E. Another way to look at this is by showing a running total, as we tend to compare things annually. This way, we can see the accumulated difference. All these charts are interactive and provide much more detail on demand via tooltips.
+
+F. This simple consumption chart covers a few years with additional annual averages and trend information.
+
+I am sure other data elements could be used here. For example, we could use some targets to see how progress is made on the CO2 and consumption fronts. Maybe we could use $ or other measures to tell a more compelling story; CO2 emissions are a little abstract for most. 
+
+Could this be more granular than monthly numbers? Would bringing it closer to real-time make sense? Would that change behaviour? 
+
+I experimented with something in this area using Australia's grid data, which shows different views of the energy mix in the country. You can see a live version here https://macbryla.com/data/aus-energy-transition/
+
+It would be interesting to try this on real data. DM me if you would like us to have a look.
+
+For now, it's just my 2c
